@@ -1,0 +1,143 @@
+@CHARSET "UTF-8";
+a {
+	color: [specFontColor];
+	text-decoration: none;
+	cursor: pointer;
+}
+.td{
+	position:relative;
+	/*min-width: 150px;*/
+}
+table{
+	border: none;
+	border-spacing : 0;
+	border-collapse : collapse;
+}
+table tr td{
+	padding: 1px;
+}
+.KHttpListForm, .KPageList{
+	width: 100%;
+}
+.selection1
+{
+    FONT-WEIGHT: normal;
+    COLOR: Black;
+    border-top: 1px dotted [selection1];
+    border-bottom: 1px dotted [selection1];
+	background-color: [selection1];
+}
+.selection1:hover, .selection2:hover{
+    BACKGROUND-COLOR: [hover];
+    color: [fontHover];
+}
+.selection4
+{
+    BACKGROUND-COLOR: [selection4];
+	 color: white;
+}
+.selection2
+{
+    BACKGROUND-COLOR: [selection2];
+}
+.selection3
+{
+    FONT-WEIGHT: bold;
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: [selection3];
+}
+.odd
+{
+    BACKGROUND-COLOR: #ffffff;
+    border: 1px dotted [selection1];
+}
+.odd:hover
+{
+    BACKGROUND-COLOR: [selection1];
+}
+
+.sInnerBtn{
+	/*position: absolute;
+	right: 0;*/
+	float: right;
+	padding: 2px;
+	line-height: 12px;
+	vertical-align: middle;
+	/*top: -6px;
+	position: relative;
+	display: inline-block;*/
+}
+.activePage{
+	padding: 0px;
+	border-spacing : 0;
+	border-collapse : collapse;
+}
+.activePage a{
+	background-color: [klist];
+	border: [klist] thin inset;
+	padding: 4px;
+}
+.Klist{
+	background-color: [klist];
+	border: [klist] 1px solid;
+	text-align: left;
+	position:relative;
+	padding-left: 10px;
+	vertical-align: top;
+
+}
+.Klist{
+	max-width: 200px;
+	/*width: 200px;
+	max-height: 100px;*/
+}
+.kpagelistTable{
+	width: 100%;
+	box-sizing: content-box;
+}
+.Klist div:hover{
+	background-color: [hover];
+	color: [fontHover];
+}
+.tdKlist{
+	vertical-align: top;
+}
+.selectLine{
+	border:1px solid red;
+}
+.infoMessage{
+ 	background-repeat: no-repeat;
+ 	background-position: left center;
+ 	padding: 4px;
+ 	margin: 2px;
+ 	font-weight: bolder;
+}
+#_ajx{
+
+}
+.groupBy, .groupBy1, .groupBy2{
+	background-color: [bgGroupBy];
+	color: [groupBy];
+	font-weight: bold;
+	font-size: 14px;
+}
+.groupBy2{
+	background-color: [boxTitle1];
+		color: [boxTitle2];
+}
+.navBarre{
+	display: inline-block;
+	vertical-align: middle;
+}
+.nbPages{
+	display: none;
+}
+.pageCounter{
+	display: inline-block;
+	float: left;
+	vertical-align: middle;
+	margin: 6px;
+}
+.pageCounter input{
+	width: auto;
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2011-02-11T15:32:53.246835Z"
+   url="https://kobject.svn.sourceforge.net/svnroot/kobject/php/tools/include/images/navBarre"
+   last-author="jcheron"
+   kind="dir"
+   repos="https://kobject.svn.sourceforge.net/svnroot/kobject"
+   revision="3"/>
+<entry
+   committed-rev="3"
+   name="previous.gif"
+   text-time="2007-11-26T15:45:38.000000Z"
+   committed-date="2011-02-11T15:32:53.246835Z"
+   checksum="58dd82a8d08d800798501739ab0b7421"
+   last-author="jcheron"
+   kind="file"
+   prop-time="2011-02-11T15:27:22.826553Z"/>
+<entry
+   committed-rev="3"
+   name="next.gif"
+   text-time="2007-11-26T15:45:08.000000Z"
+   committed-date="2011-02-11T15:32:53.246835Z"
+   checksum="b19ff10a8fb1811114dc8ce57b8d7f6d"
+   last-author="jcheron"
+   kind="file"
+   prop-time="2011-02-11T15:27:21.267464Z"/>
+<entry
+   committed-rev="3"
+   name="Thumbs.db"
+   text-time="2009-03-02T16:34:58.812000Z"
+   committed-date="2011-02-11T15:32:53.246835Z"
+   checksum="7c6dbaa4cd8a4a2b85343f49ad1672bf"
+   last-author="jcheron"
+   kind="file"
+   prop-time="2011-02-11T15:27:20.742434Z"/>
+<entry
+   committed-rev="3"
+   name="last.gif"
+   text-time="2007-11-26T15:44:34.000000Z"
+   committed-date="2011-02-11T15:32:53.246835Z"
+   checksum="d2834e49268d635b9a4abff0ce1b4fd5"
+   last-author="jcheron"
+   kind="file"
+   prop-time="2011-02-11T15:27:21.608483Z"/>
+<entry
+   committed-rev="3"
+   name="first.gif"
+   text-time="2007-11-26T15:44:04.000000Z"
+   committed-date="2011-02-11T15:32:53.246835Z"
+   checksum="0437c701b5c033c7090e3d967132b4f2"
+   last-author="jcheron"
+   kind="file"
+   prop-time="2011-02-11T15:27:21.655486Z"/>
+</wc-entries>

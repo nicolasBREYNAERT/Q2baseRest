@@ -1,0 +1,474 @@
+@CHARSET "UTF-8";
+body{
+	background: none;
+	outline: 0;
+}
+/*------------------------------main admin-----------------------*/
+.pgAdmin{
+	font-weight: normal;
+	display: inline-block;
+	cursor: pointer;
+	margin-left: 20px;
+}
+.pgAdmin span{
+	padding: 4px 10px 4px 26px;
+	background: url('../images/admin/settings.png') left center no-repeat;
+	line-height: 28px;
+}
+/*------------------------------fin main admin-----------------------*/
+/*------------------------------siteMap-----------------------*/
+#siteMap *{
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+}
+.KAjaxRequest, .KMapping, .KVirtualMapping, .KAjaxJs, .KAjaxFunction, .KAjaxInclude, .KAjaxIncludeDialog,.KAjaxMessageDialog, .KAjaxDialogButton, .KAjaxSelector, .KAjaxEvent, .KAjaxShowHide, .KAjaxSet{
+	display: inline-block;
+}
+.KAjaxRequest{
+	font-weight: bolder;
+	padding: 4px 0 4px 20px;
+	background: url('../images/siteMap/request.png') left center no-repeat;
+	cursor: pointer;
+}
+.KMapping{
+	font-weight: bolder;
+	padding: 4px 0 4px 20px;
+	background: url('../images/siteMap/mapping.png') left center no-repeat;
+	cursor: pointer;
+}
+.KVirtualMapping{
+	font-weight: bolder;
+	padding: 4px 0 4px 20px;
+	background: url('../images/siteMap/virtualMapping.png') left center no-repeat;
+	cursor: pointer;
+}
+.KAjaxJs{
+	width: 250px;
+}
+.targetId{
+	width: 250px;
+	font-weight: normal;
+}
+.targetUrl{
+	padding: 4px 0 4px 20px;
+	background: url('../images/siteMap/include.png') left center no-repeat;
+	font-weight: bolder; 
+	cursor: pointer;
+}
+.method{
+	color: #315D75;
+	font-weight: bolder;
+}
+.KAjaxFunction{
+	font-weight: bolder;
+	padding: 4px 0 4px 20px;
+	background: url('../images/siteMap/function.png') left center no-repeat;
+}
+.KAjaxIncludeDialog{
+	padding: 4px 0 4px 20px;
+	background: url('../images/siteMap/includeDialog.png') left center no-repeat;	
+}
+.KAjaxMessageDialog{
+	padding: 4px 0 4px 20px;
+	background: url('../images/siteMap/messageDialog.png') left center no-repeat;	
+}
+.message{
+	padding: 4px 0 4px 20px;
+	background: url('../images/siteMap/message.png') left center no-repeat;
+}
+.KAjaxDialogButton{
+	padding: 4px 0 4px 20px;
+	background: url('../images/siteMap/buttons.png') left center no-repeat;	
+}
+.KAjaxSelector{
+	padding: 4px 0 4px 20px;
+	background: url('../images/siteMap/selector.png') left center no-repeat;
+}
+.KAjaxEvent{
+	padding: 4px 0 4px 20px;
+	background: url('../images/siteMap/fireEvent.png') left center no-repeat;
+}
+.KAjaxShowHide{
+	font-weight: bolder;
+	padding: 4px 0 4px 20px;
+	background: url('../images/siteMap/showhide.png') left center no-repeat;
+}
+#siteMap{
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	min-height: 500px;
+	background-color: white;
+	padding: 10px;
+	margin-top: 10px;
+}
+#siteMap td{
+	vertical-align: top;
+}
+.breadcrumb{
+	-webkit-border-radius: [borderRadiusSmall];
+	-moz-border-radius: [borderRadiusSmall];
+	border-radius: [borderRadiusSmall];
+	background-color: white;
+	border: 1px inset [bgCtrl];
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.title{
+	font-weight: bolder;
+}
+/*-------------------------------------Opérations---------------------------------------------*/
+.idem{
+	background-color: #BCF3AD;
+}
+.new{
+	background-color: #E8F0FA;
+}
+.updated{
+	background-color: #FF8F8F;
+}
+.btTestChecked{
+	font-weight: bolder;
+	padding: 4px 0 4px 28px;
+	background: url('../images/siteMap/btTestChecked.png') left center no-repeat;	
+}
+
+.btTestAll{
+	font-weight: bolder;
+	padding: 4px 0 4px 28px;
+	background: url('../images/siteMap/btTestAll.png') left center no-repeat;	
+}
+.btUpload{
+	font-weight: bolder;
+	padding: 4px 0 4px 28px;
+	background: url('../images/siteMap/btUpload.png') left center no-repeat;	
+}
+.btRestore{
+	font-weight: bolder;
+	padding: 4px 0 4px 28px;
+	background: url('../images/siteMap/btRestore.png') left center no-repeat;	
+}
+.btSave{
+	font-weight: bolder;
+	padding: 4px 0 4px 28px;
+	background: url('../images/siteMap/btSave.png') left center no-repeat;	
+}
+#otherOperations .btn{
+	min-width: 270px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.btn{
+	outline: 0;
+}
+#infos {
+    height: auto !important;
+    min-height: 20px;
+    background-color: [button1];
+    border: 1px inset;
+    margin: 5px;
+    padding: 4px;
+    border-style: inset;
+}
+.kobjectController{
+	display: inline-block;
+	vertical-align: top;
+}
+.kobjectController>span{
+	font-weight: bolder;
+	padding: 4px 0 4px 28px;
+	color: #212F53;
+	background: url('../images/siteMap/ops/kobject.png') left center no-repeat;		
+}
+.fieldController{
+	margin-left: 20px;
+	padding: 0px 0 0px 20px;
+	background: url('../images/siteMap/ops/member.png') left center no-repeat;
+	display: inline-block;	
+}
+.member{
+	
+}
+.memberProperty{
+	
+}
+.memberType{
+	color: #7F0055;
+}
+.memberName{
+	color: #0000D5;
+	font-weight: normal;
+}
+.required{
+	font-weight: bolder;
+}
+.allowNull{
+	font-style: italic;
+}
+.otherOne{
+	color: #808080;
+	font-weight: normal;
+}
+.element{
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.element .key{
+	margin-left: 20px;
+	padding: 0px 0 0px 20px;
+	background: url('../images/siteMap/ops/member.png') left center no-repeat;
+	display: inline-block;
+	font-weight: bold;
+	color: #7F0055;
+	width: 80px;
+	overflow: hidden;
+  	-o-text-overflow: ellipsis;
+  	text-overflow: ellipsis;
+}
+.element .value{
+	margin-left: 3px;
+	color: #808080;
+	font-weight: normal;
+	display: inline-block;
+}
+.element .color{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border: black 1px solid;
+}
+.element .noColor{
+	display: inline-block;
+	width: 12px;
+	height: 12px;	
+}
+input[type="checkbox"]{
+	margin: 0px;
+}
+#copy, #original{
+	
+}
+
+/*---------------logs-------------------------*/
+.SEVERE{
+	color: red;
+	font-weight: bolder;
+}
+
+.WARNING{
+	color: #F4B200;
+}
+
+.INFO{
+	color: [buttonFont];
+}
+.logs{
+	overflow: auto;
+	max-height: 600px;
+	height: auto;
+	border:1px solid [bgCtrl];
+	background-color: white;
+	display: block;
+	-webkit-border-radius: 0px 4px 4px 4px;
+	-moz-border-radius:  0px 4px 4px 4px;
+	border-radius:  0px 4px 4px 4px;
+	margin-top: 10px;
+}
+.date{
+	font-weight: bolder;
+	display: inline-block;
+	margin-right: 10px;
+}
+#logs .message{
+	display: inline-block;
+	background: none;
+}
+.label{
+	/*width: 120px;*/
+}
+.RECORD:hover{
+	BACKGROUND-COLOR: [hover];
+	color: [fontHover];
+	cursor: pointer;
+}
+.ajax-loader{
+	width:128px;
+    background-image: url("../images/main/ajax-loader.gif");
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 15px;
+}
+#loader{
+	height: 15px;
+	margin: 3px;
+}
+/*--------------fin logs----------------*/
+/*--------------listClasses----------------*/
+#_classes, #_commandes {
+	display: inline-block;
+	vertical-align: top;
+}
+#_commandesResponse{
+	background-color: #FFFFFF;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	border-radius:  4px 4px 4px 4px;
+	padding: 4px;
+	margin: 8px 0px 8px 0px;
+	border: 1px inset #F9F7E8;
+	min-height: 30px;
+}
+#_classes .label, #_classes .field, #_classes label{
+	display:inline-block;
+	font-weight: normal;
+	font-size: 11px;
+	vertical-align: middle;
+}
+#_classes .field{
+	height: auto;
+	width: auto;
+	display: block;
+}
+#boxButtons{
+	margin: 0px;
+	margin-top: 5px;
+	vertical-align: middle;!important
+}
+#boxButtons .field{
+	display: inline-block;
+}
+#boxButtons label{
+	width: auto;
+}
+#_classes .label, #_classes label{
+	color:[specFontColor];
+	width: auto;
+}
+#_classes input, #_classes select{
+	font-size: 11px;	
+}
+#_classes .boxButtons{
+	margin: 3px 0px 0px 0px;
+}
+#_classes fieldset, #_commandes fieldset{
+	font-weight: normal;
+	-webkit-border-radius: 8px 0px 8px 0px;
+	-moz-border-radius: 8px 0px 8px 0px;
+	border-radius: 8px 0px 8px 0px;
+	border: 2px solid [bgCtrl];
+	background-color: [bgCtrl];
+	font-size: 11px;
+	min-width:300px;
+	resize: horizontal;
+	overflow: auto;
+}
+#_classes .checkboxList{
+	width: auto;
+	border-radius: 0px;
+}
+#_classes legend, #_commandes legend{
+	-webkit-border-radius: 4px 0px 4px 0px;
+	-moz-border-radius: 4px 0px 4px 0px;
+	border-radius: 4px 0px 4px 0px;
+	color:[colorFontCtrl];
+	font-weight: bold;
+	font-size: 12px;
+	background-color: [bgCtrl];
+	margin-left:10px;
+	padding: 4px;
+	cursor: pointer;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5), 0 0 2px #FFFFFF inset;
+}
+/*--------------fin listClasses----------------*/
+/*--------------dbUpdates----------------*/
+.message textarea{
+	width: 520px;
+	height: 90px;
+}
+
+/*---------------checks----------------------------------------*/
+#_commandes .optBox, #_commandes .optBoxLeft{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#_commandes .optBoxLeft{
+	padding-right: 4px;
+}
+
+#checkResults{
+	font-weight: normal;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+}
+#checkResults .titleMessage{
+	font-weight: bold;
+	display: block;
+	margin-top: 6px;
+	margin-bottom: 2px;
+	font-size: 14px;
+}
+#checkResults .subTitleMessage{
+	font-weight: bold;
+	display: block;
+	margin-top: 6px;
+	margin-bottom: 2px;
+	font-size: 14px;
+}
+#checkResults .ssDiv{
+	margin-left: 30px;
+}
+#checkResults .errMessage,#checkResults .warningMessage,#checkResults .infoMessage,#checkResults .validMessage,#checkResults .unknownMessage{
+	display: block;
+	padding-left:20px;
+	font-size: inherit;
+	font-weight: inherit;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px;	
+}
+#checkResults .errMessage {
+	color: #EF1515;
+	background: transparent url(../images/messages/exclamation.png) no-repeat left;
+}
+
+#checkResults .warningMessage{
+	color: #ED8A49;
+	background: transparent url(../images/messages/error.png) no-repeat left;
+}
+
+#checkResults .infoMessage{
+	color: #0E86B2;
+	background: transparent url(../images/messages/information.png) no-repeat left;	
+	font-weight: normal;	
+}
+
+#checkResults .validMessage{
+	color: #1E7A1B;
+	background: transparent url(../images/messages/accept.png) no-repeat left;		
+}
+
+#checkResults .unknownMessage{
+	color: #5E5E5E;
+	background: transparent url(../images/messages/unknown.png) no-repeat left;		
+}
+
+#checkResults .toogleItem *{
+	display: inline-block;
+}
+#checkResults .toogleItem{
+	display: block;
+}
+#ckList-opsAffCheck span{
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}

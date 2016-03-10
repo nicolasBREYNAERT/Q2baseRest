@@ -1,0 +1,33 @@
+#Fichier de configuration KoCreator version 1.0.0.26
+#Thu Mar 10 11:41:10 GMT+01:00 2016
+actionsName=action.do
+footerURL=WEB-INF/footer.jsp
+headerURL=WEB-INF/header.jsp
+base=rest-qcm
+cacheType=1
+classes=
+clientDebug=false
+clientDebugOptions=true
+constraintsDepth=1
+controlClass=
+dbOptions=
+dbType=mysql
+debug=true
+erFile=conf/validation/er.properties
+host=127.0.0.1
+koDateFormat=dd/MM/yyyy
+logFormat=html
+messagesFile=conf/validation/messages.properties
+nullValue=&nbsp;
+package=rest.models
+password=
+pluginVersion=1.0.0.26
+port=3306
+schema.ddl=validate
+sqlDateFormat=yyyy-MM-dd
+useCache=false
+useLog=true
+useSetters=false
+user=root
+validationFile=conf/kox.xml
+webApp=true

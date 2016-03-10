@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+.SEVERE{
+	color: red;
+	font-weight: bolder;
+}
+
+.WARNING{
+	color: #F4B200;
+}
+
+.INFO{
+	color: [buttonFont];
+}
+.logs{
+	overflow: auto;
+	max-height: 600px;
+	height: auto;
+	border:1px solid [bgCtrl];
+	background-color: white;
+	display: block;
+	-webkit-border-radius: 0px 4px 4px 4px;
+	-moz-border-radius:  0px 4px 4px 4px;
+	border-radius:  0px 4px 4px 4px;
+	margin-top: 10px;
+}
+.date{
+	font-weight: bolder;
+	display: inline-block;
+	margin-right: 10px;
+}
+.message{
+	display: inline-block;
+}
+.label{
+	width: 120px;
+}
+.RECORD:hover{
+	BACKGROUND-COLOR: [hover];
+	color: [fontHover];
+	cursor: pointer;
+}
+.ajax-loader{
+	width:128px;
+    background-image: url("../images/main/ajax-loader.gif");
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 15px;
+}
+#loader{
+	height: 15px;
+	margin: 3px;
+}
