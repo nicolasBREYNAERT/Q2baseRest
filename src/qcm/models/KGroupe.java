@@ -85,4 +85,14 @@ public class KGroupe extends KRestObject {
 	public void setUtilisateurs(KListObject<KUtilisateur> utilisateurs) {
 		this.utilisateurs = utilisateurs;
 	}
+	
+	@Override
+	public boolean equals(Object o){
+		
+		if(o instanceof KGroupe){
+			KGroupe gr=(KGroupe)o;
+			return libelle.equals(gr.getLibelle());
+		}
+		return false;
+	}
 }
