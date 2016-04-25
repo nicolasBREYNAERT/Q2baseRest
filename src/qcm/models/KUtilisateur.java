@@ -21,6 +21,7 @@ public class KUtilisateur extends KRestObject {
 	@Expose
 	private String nom;
 	private String password;
+	@Expose
 	private String prenom;
 	@Expose
 	private KRang rang;
